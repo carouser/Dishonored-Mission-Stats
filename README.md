@@ -4,19 +4,21 @@ The mission stats could be reviewed at any time, but you need to enable UDK Cons
 
 Add the following line:
 
+```
 m_PCBindings=(Name="Tilde",Command="set Console ConsoleKey Tilde | set PlayerController CheatClass class'DishonoredCheatManager' | EnableCheats")
+```
 
 to the file:
 
+```
 %USERPROFILE%\My Documents\My Games\Dishonored\DishonoredGame\Config\DishonoredEngine.ini 
+```
 
 Now you can access Console by pressing tilde (~ / `) button.
 
 ---
 
-The full list of console commands is published here:
-
-https://docs.unrealengine.com/udk/Three/ConsoleCommands.html
+The full list of console commands is published [here](https://docs.unrealengine.com/udk/Three/ConsoleCommands.html)
 
 You need just one:
 
@@ -26,6 +28,7 @@ The stats are printed in the same order as you see them on the "mission complete
 
 Here is an example:
 
+```
 0: (m_Stat=28)                                      -- 
 1: (m_Stat=30)                                      -- 
 2: (m_Stat=3)                                       -- 
@@ -36,3 +39,4 @@ Here is an example:
 7: (m_Stat=36,m_fValue=1.000000,m_MaxValue=1)       -- paintings
 8: (m_Stat=37,m_fValue=3.000000,m_MaxValue=3)       -- 
 9: (m_Stat=33,m_fValue=3758.000000,m_MaxValue=5635) -- coins
+```
