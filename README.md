@@ -31,9 +31,9 @@ The stats are printed in the same order as you see them on the "mission complete
 Here is an example:
 
 ```
-0: (m_Stat=28)                                      -- 
-1: (m_Stat=30)                                      -- 
-2: (m_Stat=3)                                       -- 
+0: (m_Stat=28)                                      -- Hostiles Killed
+1: (m_Stat=30)                                      -- Civillians Killed
+2: (m_Stat=3)                                       -- Alarms Rung
 3: (m_Stat=4)                                       -- 
 4: (m_Stat=10)                                      -- 0 : ghost
 5: (m_Stat=34,m_fValue=5.000000,m_MaxValue=5)       -- runes
