@@ -26,7 +26,7 @@ You need just the following:
 GetAll DishonoredPlayerPawn m_MissionStatValues
 ```
 
-The stats are printed in the same order as you see them on the "mission complete" screen, except the "Overall Chaos (Current Total)" and "Didn't Kill Anyone".
+The stats are printed in the same order as you see them on the "mission complete" screen, except "Overall Chaos (Current Total)" and "Didn't Kill Anyone".
 
 Here is an example:
 
@@ -35,7 +35,7 @@ Here is an example:
 1: (m_Stat=30)                                      -- Civilians Killed
 2: (m_Stat=3)                                       -- Alarms Rung
 3: (m_Stat=4)                                       -- Dead or Unconscious Bodies Found
-4: (m_Stat=10)                                      -- 0 : Ghost (Never Detected)
+4: (m_Stat=10)                                      -- Ghost (Never Detected) -- 0 means checked
 5: (m_Stat=34,m_fValue=5.000000,m_MaxValue=5)       -- Runes Found
 6: (m_Stat=35,m_fValue=8.000000,m_MaxValue=8)       -- Bone Charms Found
 7: (m_Stat=36,m_fValue=1.000000,m_MaxValue=1)       -- Sokolov Paintings Found
