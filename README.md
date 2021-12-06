@@ -8,7 +8,7 @@ Add the following line:
 m_PCBindings=(Name="Tilde",Command="set Console ConsoleKey Tilde | set PlayerController CheatClass class'DishonoredCheatManager' | EnableCheats")
 ```
 
-to the file:
+to the "Engine.PlayerInput" section of the file:
 
 ```
 %USERPROFILE%\My Documents\My Games\Dishonored\DishonoredGame\Config\DishonoredEngine.ini 
@@ -18,11 +18,13 @@ Now you can access Console by pressing tilde (~ / `) button.
 
 ---
 
-The full list of console commands is published [here](https://docs.unrealengine.com/udk/Three/ConsoleCommands.html)
+The full list of console commands is published [here](https://docs.unrealengine.com/udk/Three/ConsoleCommands.html).
 
-You need just one:
+You need just the following:
 
+```
 GetAll DishonoredPlayerPawn m_MissionStatValues
+```
 
 The stats are printed in the same order as you see them on the "mission complete" screen.
 
