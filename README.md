@@ -26,9 +26,7 @@ You need just the following:
 GetAll DishonoredPlayerPawn m_MissionStatValues
 ```
 
-The stats are printed in the same order as you see them on the "mission complete" screen, except "Overall Chaos (Current Total)".
-
-"Didn't Kill Anyone" is checked if "Hostiles Killed" + "Civilians Killed" = 0
+The stats are printed in the same order as you see them on the "mission complete" screen, except "Overall Chaos (Current Total)" and "Didn't Kill Anyone" ("Hostiles Killed" + "Civilians Killed" == 0).
 
 Here is an example:
 
