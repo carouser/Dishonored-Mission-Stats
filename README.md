@@ -42,3 +42,5 @@ Here is an example:
 8: (m_Stat=37,m_fValue=3.000000,m_MaxValue=3)       -- 
 9: (m_Stat=33,m_fValue=3758.000000,m_MaxValue=5635) -- coins
 ```
+
+![ScreenShot](./Dishonored-Mission-Stats.jpg)
